@@ -1,39 +1,81 @@
-.container{
-    display: flex;
-    justify-content: space-around;
-    gap:32px;
- }
- 
- header{
-   display: flex;
-     justify-content: flex-start;
- 
- }
- .main{
-    display: flex;
-    justify-content: space-around;
-}
-#pic{
-    width: 45vw;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "PT Sans", sans-serif;
 }
-#ct{
-    width: 25vw;
-    height: 2em;
-    background-color: black;
-    font-family: PT Sans Caption;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 36px;
-    text-align: left;
-    padding: 1em 2em;
-    text-underline-position: from-font;
+.img-1{
+width: 316px;
+height: 126px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+ nav a{
     text-decoration: none;
-    color: white;
+    color: rgb(59, 39, 11);
+ }
 
 
+ 
+.tyy {
+    width: ;
+    height: ;
+    margin: ;
+    padding: ;
+  }
+ 
+  .opp {
+  width: 50vw;
+  height: 126vh;
+  margin: 0px;
+  padding: 0px;
+  }
+ 
+  .naa{
+ 
+  }
+ 
+  .yy {
+ 
+  }
+ 
+  .mqq {
+ 
+  }
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+   
+}  
+.imfo {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 60%;
 }
+
+
+/* img {
+    width: 340px;
+    height: 340px;
+
+
+} */
 
 
 .ert {
@@ -45,15 +87,8 @@
 
 
 }
-.imfo {
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 60%;
 
 
-}
 .u {
  display: flex;
  justify-content: flex-end;
@@ -62,3 +97,5 @@
 
 
 }
+
+
