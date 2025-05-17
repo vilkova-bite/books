@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подписные издания</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<header>
+    <img class="img-1" src="https://backoffice.algoritmika.org/uploads/2024/08/bb_logo.png">
+    <nav>
+       <a href="">Асортимент</a>
+       <a href="">Адреса магазинов</a>
+       <a href="">поддержка и контакты</a>
+    </nav>
+</header>
+<main>
+    <div class="imfo">
+
+
+        <h1 class="tyy"> Kниги для всех </h1>
+        <button class="yy">смотреть каталог</button>
+        <p class="naa"> продаем книги с 1926 года</p>
+        <div class="mqqq">
+            <img src="https://backoffice.algoritmika.org/uploads/2024/06/yandex.png">
+            <img src="https://backoffice.algoritmika.org/uploads/2024/06/odnoklassniki.png">
+            <img src="https://backoffice.algoritmika.org/uploads/2024/06/vkontakte.png">
+        </div>
+    </div>
+    <img class="opp" src="https://backoffice.algoritmika.org/uploads/2024/06/cover.png">
+</main>
+<div class="main">
+    <h1 class="lkj"> Основные направления </h1>
+    <div class="ert">
+        <div class="u">
+    <img src="https://backoffice.algoritmika.org/uploads/2024/06/item1.png">
+     <p> Классическая и современная художественная проза </p>
+    </div>
+    <div class="u">
+    <img src="https://backoffice.algoritmika.org/uploads/2024/06/item2.png">
+    <p> Философия и история </p>
+    </div>
+    <div class="u">
+    <img src="https://backoffice.algoritmika.org/uploads/2024/06/item3.png">
+    <p> Литературоведение и теория театра и кино </p>
+    </div>
+    <div class="u">
+    <img src="https://backoffice.algoritmika.org/uploads/2024/06/item4.png">
+        <p> Альбомы по искусству, книги и журналы </p>
+    </div>
+        </div>
+    </div>
+</body>
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "PT Sans", sans-serif;
+}
+.img-1{
+width: 316px;
+height: 126px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+ nav a{
+    text-decoration: none;
+    color: rgb(59, 39, 11);
+ }
+
+
+ 
+.tyy {
+    width: ;
+    height: ;
+    margin: ;
+    padding: ;
+  }
+ 
+  .opp {
+  width: 50vw;
+  height: 126vh;
+  margin: 0px;
+  padding: 0px;
+  }
+ 
+  .naa{
+ 
+  }
+ 
+  .yy {
+ 
+  }
+ 
+  .mqq {
+ 
+  }
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+   
+}  
+.imfo {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 60%;
+}
+
+
+/* img {
+    width: 340px;
+    height: 340px;
+
+
+} */
+
+
+.ert {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    /* height: 680px; */
+    background-color: #E9ADC89E;
+
+
+}
+
+
+.u {
+ display: flex;
+ justify-content: flex-end;
+ flex-direction: column;
+ width: 15vw;
+
+
+}
+
+
+
+Никита и Полина:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подписные издания</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img width="150" src="https://backoffice.algoritmika.org/uploads/2024/08/bb_logo.png">
+  <div class="container">
+<a href="">ассортимент</a>
+<a href="" >адреса магазинов</a>
+<a href="" >поддержка и контакты</a>
+  </div>
+</header>
+
+
+<div class="main">
+    <div>
+        <div class="imfo">
+            <h1>Книги для всех</h1>
+            <p>Продаем книги с 1926 года</p>
+            <div>
+
+
+                <img src = "https://backoffice.algoritmika.org/uploads/2024/06/odnoklassniki.png">
+                <img src = "https://backoffice.algoritmika.org/uploads/2024/06/vkontakte.png">
+                <img src = "https://backoffice.algoritmika.org/uploads/2024/06/yandex.png">
+            </div>
+        </div>
+        <a href = "" id="ct">Смотреть каталог</a>
+    </div>
+    <img src = "https://backoffice.algoritmika.org/uploads/2024/06/cover.png" id="pic">
+</div>
+<main>
+    <h1 class="lkj"> Основные направления </h1>
+    <div class="ert">
+        <div class="u">
+    <img src="https://backoffice.algoritmika.org/uploads/2024/06/item1.png">
+     <p> Классическая и современная художественная проза </p>
+    </div>
+    <div class="u">
+    <img src="https://backoffice.algoritmika.org/uploads/2024/06/item2.png">
+    <p> Философия и история </p>
+    </div>
+    <div class="u">
+    <img src="https://backoffice.algoritmika.org/uploads/2024/06/item3.png">
+    <p> Литературоведение и теория театра и кино </p>
+    </div>
+    <div class="u">
+    <img src="https://backoffice.algoritmika.org/uploads/2024/06/item4.png">
+        <p> Альбомы по искусству, книги и журналы </p>
+    </div>
+        </div>
+ </main>
+</body>
+</html>
